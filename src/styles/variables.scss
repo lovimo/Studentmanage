@@ -1,0 +1,23 @@
+//navbar
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#0055A6;
+$menuHover:#0055A6;
+
+$subMenuBg:#0055A6;
+$subMenuHover:#0055A6;
+
+$navBarWidth: 64px;
+
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  navBarWidth: $navBarWidth;
+}
